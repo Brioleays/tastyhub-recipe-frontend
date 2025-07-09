@@ -20,3 +20,4 @@ A recipe-sharing platform built with React and Tailwind CSS for a 90-day fronten
 
 ## log
 - Day 1 , environment setup , 8/7/25
+- Day 2 , Static header navbar and hero section , 9/7/25

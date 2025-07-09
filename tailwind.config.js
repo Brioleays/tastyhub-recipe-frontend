@@ -7,11 +7,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#1DA1F2',
-        secondary: '#14171A',
-        accent: '#657786',
-        background: '#E1E8ED',
-        text: '#14171A',
+        logo: '#d4422a',
+        primary: '#2d4a2b', 
+        // primary: for header navigation and primary text
+        secondary: '#6b4423',
+        // for secondary text and links
+        accent: '#d4422a',
+        // for CTA buttons, Highlights, featured element
+        background: '#f8f5f0',
+        // for main and card background
+        idleb: '#8b9a79',
+        // for inactive state and borders
+        support: '#49782d',
+        // for categorization badges and tags
+
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

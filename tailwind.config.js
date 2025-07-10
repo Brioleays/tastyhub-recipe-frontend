@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'sm': '0 1px 1px #d4412a',
+        'lg': '0 4px 14px #d4412a',
+        
+      },
       colors: {
         logo: '#d4422a',
         primary: '#2d4a2b', 
@@ -20,12 +25,31 @@ export default {
         // for inactive state and borders
         support: '#49782d',
         // for categorization badges and tags
+        hover: '#ff8565' ,
+        // for hoverstate, ratings and warm accent
 
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
         popins: ['Poppins', 'sans-serif'],
+      },
+      spacing: {
+        
+        '30': '7.5rem', // 120px
+        '60': '12.5rem', // 200px
+        '68': '15.5rem', // 248px
+        '70': '17.5rem', // 280px
+        '80': '20rem', // 320px
+        '128': '32rem', // 512px
+        '130': '34rem',
+        '144': '36rem', // 576px
+        '160': '40rem', // 640px
+        '180': '45rem', // 720px
+        '200': '50rem', // 800px
+        '220': '55rem', // 880px
+        '240': '60rem', // 960px
+        '260': '65rem', // 1040px
       },
     },
   },

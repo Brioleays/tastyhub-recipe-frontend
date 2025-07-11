@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        '2xl': '1rem',
+        '3xl': '1.5rem',
+        '4xl': '2rem',
+        '5xl': '2.5rem',
+      },
       boxShadow: {
         'sm': '0 1px 1px #d4412a',
         'lg': '0 4px 14px #d4412a',
@@ -35,8 +41,11 @@ export default {
         popins: ['Poppins', 'sans-serif'],
       },
       spacing: {
-        
+        '25': '6.5rem', // 104px
         '30': '7.5rem', // 120px
+        '40': '10rem', // 160px
+        '45': '11.125rem', // 180px
+        '50': '12.5rem', // 200px
         '60': '12.5rem', // 200px
         '68': '15.5rem', // 248px
         '70': '17.5rem', // 280px

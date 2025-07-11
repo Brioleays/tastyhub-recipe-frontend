@@ -1,7 +1,7 @@
 import Header from './components/Header.jsx';
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
-import { PopularDishes,CategoriesA, CategoriesB } from './components/Recipecard.jsx';
+import { PopularDishes,CategoriesA, CategoriesB, Testimonies } from './components/Recipecard.jsx';
 function App() {
   
   return (
@@ -27,6 +27,12 @@ function App() {
       image="https://placehold.co/200"
       title="Italian "
     />
+      <Testimonies
+        image="https://placehold.co/200"
+        quote="This is the best recipe I've ever tried!"
+        username="John Doe"
+        rating="5"
+      />
     </div>
      
     </>

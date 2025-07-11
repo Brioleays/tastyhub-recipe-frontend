@@ -37,11 +37,13 @@ const CategoriesB = ({image, title}) => {
 
 const Testimonies = ({image, quote, username, rating}) => {
   return (
-    <div>
-      <img src={image} />
-      <h2>{quote}</h2>
-      <p>{username}</p>
-      <p>{rating}</p>
+    <div className='bg-background shadow-lg rounded-5xl p-4 h-auto w-w-64 sm:w-70 mx-auto relative'>
+      <img src={image} className='w-20 h-20 -mt-10 mx-auto  object-cover rounded-full md:-mt-10'/>
+      <div className="font-bold  mt-2 px-2 pb-2 text-sm text-center md:text-md md:mt-4">
+        <p className="text-accent font-serif font-semibold">{rating}</p>
+        <h2 className="font-bold text-md mb-2 italic">{quote}</h2>
+        <p className="text-secondary font-semibold">{username}</p>
+      </div>
     </div>
   );
 };

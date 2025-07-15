@@ -24,3 +24,5 @@ A recipe-sharing platform built with React and Tailwind CSS for a 90-day fronten
 - Day 3, finetuning of the day 2 exercise, mobile responsiveness and the recipe cards, 10/7/25
 - Day 4, complete the recipecards components tho without the stars included yet, 11/7/25
 - Day 5, created a basic layout for the grids of the various sections but with no connections i am unable to post this night or yesterday night if you are reading it on the 13/07/25, 13/07/25
+- Day 6, discovered my design was nothing short of unprofessional so i went on a shopping spree of inspiration to pick other design inspo. Serious problems with glo connection in this area, 14/07/25
+- Day 7, Started the implementations of the optimization i could cook up and ,maybe adding of minute animations after the layout is perfect 

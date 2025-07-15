@@ -18,27 +18,35 @@ export default {
         
       },
       colors: {
-        logo: '#d4422a',
-        primary: '#2d4a2b', 
-        // primary: for header navigation and primary text
-        secondary: '#6b4423',
-        // for secondary text and links
-        accent: '#d4422a',
-        // for CTA buttons, Highlights, featured element
-        background: '#f8f5f0',
-        // for main and card background
-        idleb: '#8b9a79',
-        // for inactive state and borders
-        support: '#49782d',
-        // for categorization badges and tags
-        hover: '#ff8565' ,
-        // for hoverstate, ratings and warm accent
-
+        primarybg: '#18181B',    // Dark base background (e.g., deep gray-black from image)
+        primarybg1: '#272729ff',    // Dark base background (e.g., deep gray-black from image)
+        primarytext: '#F8F8FF',  // Light text (e.g., ghost white for readability on dark bg)
+        secondarytext: '#FFE4B5',// Warm secondary text (e.g., beige for contrast)
+        secondarybg1: '#FF6F61', // Vibrant red (e.g., for cards or highlights)
+        secondarybg2: '#B2F7EF', // Light teal (e.g., for alternate card backgrounds)
+        secondarybg3: '#B5FFB8', // Bright green (e.g., for eco-friendly tags)
+        secondarybg4: '#FF6F61', // Repeated vibrant red (e.g., consistent accent)
+        hoverbg: '#FFB347',      // Warm orange for hover states
+        logo: '#FFB347',         // Orange for logo/branding
+        bcolor: '#8B4513',       // Border color (e.g., brown to complement warm tones)
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
         popins: ['Poppins', 'sans-serif'],
+      },
+      fontSize: {
+        xxs: '0.625rem', // 10px
+        xs: '0.75rem',  // 12px
+        sm: '0.875rem', // 14px
+        base: '1rem',   // 16px
+        lg: '1.125rem', // 18px
+        xl: '1.25rem',  // 20px
+        '2xl': '1.5rem', // 24px
+        '3xl': '1.875rem', // 30px
+        '4xl': '2.25rem', // 36px
+        '5xl': '3rem',  // 48px
+        '6xl': '3.75rem', // 60px
       },
       spacing: {
         '25': '6.5rem', // 104px
